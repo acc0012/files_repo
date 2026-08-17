@@ -1,0 +1,160 @@
+# =========================================================
+# SECRETS / ENVIRONMENT
+# =========================================================
+.env
+.env.*
+!.env.example
+*.env
+
+# Credentials / keys / certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
+token.json
+tokens.json
+
+# =========================================================
+# PYTHON
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+myenv/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# =========================================================
+# APPLICATION CACHE
+# =========================================================
+.cache/
+cache/
+caches/
+tmp/
+temp/
+ghd.zip
+*.cache
+*.tmp
+*.temp
+
+# =========================================================
+# LOGS
+# =========================================================
+logs/
+log/
+*.log
+
+# =========================================================
+# LOCAL DATABASES / DATA
+# =========================================================
+*.db
+*.sqlite
+*.sqlite3
+
+data/
+local_data/
+output/
+outputs/
+
+# MongoDB local files
+mongodb/
+mongo-data/
+
+# =========================================================
+# GENERATED FILES
+# =========================================================
+*.pid
+*.lock
+
+# Generated JSON / CSV / exports
+*.generated.json
+*.generated.csv
+
+# =========================================================
+# IDE / EDITORS
+# =========================================================
+.vscode/
+.idea/
+*.code-workspace
+
+# Visual Studio
+.vs/
+
+# JetBrains
+*.iml
+
+# =========================================================
+# WINDOWS
+# =========================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================================================
+# MAC / LINUX
+# =========================================================
+.DS_Store
+.Trashes
+
+# =========================================================
+# NODE / FRONTEND (if any project contains these)
+# =========================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# BUILD / DEPLOYMENT
+# =========================================================
+*.bak
+*.backup
+*.old
+
+# Railway / local deployment files
+.railway/
+
+# =========================================================
+# CLOUD / LOCAL TOOL CONFIG
+# =========================================================
+.cloudflared/
+cloudflared.log
+
+# =========================================================
+# PERSONAL / MACHINE-SPECIFIC FILES
+# =========================================================
+local/
+machine/
+personal/
